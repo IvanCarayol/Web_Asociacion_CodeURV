@@ -1,0 +1,30 @@
+.navBar {
+  background: linear-gradient(to right, #0349b3, #01338c);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.navBar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Espacio entre elementos */
+  justify-content: flex-end; /* Centrar horizontalmente */
+  align-items: center; /* Alinear verticalmente */
+}
+
+.navBar li {
+  list-style: none;
+  margin-right: 2%;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navBar a:hover {
+  color: black;
+}
