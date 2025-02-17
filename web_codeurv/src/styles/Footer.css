@@ -1,7 +1,7 @@
 .footer {
     background: linear-gradient(to right, #000000, #002147, #0047ab);
     width: 100%;
-    min-height: 150px; 
+    height: 250px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,4 +12,22 @@
     width: 100px;
     height: auto;
     max-width: 100%;
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+
+.footer h1  {
+    color: white;
+}
+
+.footer ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 50px 0;
 }
