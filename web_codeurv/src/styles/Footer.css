@@ -21,8 +21,9 @@
 
 .footer-sections {
     display: flex;
-    justify-content: space-around; /* Reduce la separación entre secciones */
-    width: 50%; /* Ajusta el ancho total para acercar los elementos */
+    width: 60%; /* Aumenta el ancho para evitar separación excesiva */
+    margin-left: auto; /* Mueve todas las secciones un poco a la derecha */
+    gap: 80px; /* Controla la separación entre secciones */
 }
 
 .footer-section {
@@ -32,6 +33,10 @@
     min-width: 150px; /* Limita el ancho mínimo para evitar demasiada separación */
 }
 
+/* Mueve "Community" un poco más a la derecha */
+.footer-section:first-child {
+    margin-left: 80px;
+}
 
 .footer ul {
     color: white;
