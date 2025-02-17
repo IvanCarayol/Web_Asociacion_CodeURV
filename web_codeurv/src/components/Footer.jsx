@@ -15,13 +15,13 @@ function Footer() {
               Whatsapp
             </li>
             <li>
-            <img src ="../../public/logo_insta.png" alt=""/>
+              <img src ="../../public/logo_insta.png" alt=""/>
               Instagram
             </li>
             <li>
               <img src ="../../public/logo_linkedin.png" alt=""/>
               LinkedIn
-            </li>
+            </li> 
           </ul>
         </div>
 
