@@ -11,12 +11,15 @@ function Footer() {
           <h1>Community</h1>
           <ul>
             <li>
+              <img src ="../../public/logo_wass.png" alt=""/>
               Whatsapp
             </li>
             <li>
+            <img src ="../../public/logo_insta.png" alt=""/>
               Instagram
             </li>
             <li>
+              <img src ="../../public/logo_linkedin.png" alt=""/>
               LinkedIn
             </li>
           </ul>
