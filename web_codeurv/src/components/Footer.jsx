@@ -4,10 +4,10 @@ function Footer() {
     return (
       <footer className="footer">
         <div>
-          <img src ="../../public/la_calle.jpg" alt="Logo"/>
+          <img src ="../../public/logo_blanco.png" alt="Logo"/>
         </div>
 
-        <div id="footer-section">
+        <div className="footer-section">
           <h1>Community</h1>
           <ul>
             <li>
@@ -22,7 +22,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div id="footer-section">
+        <div className="footer-section">
           <h1>Projects</h1>
           <ul>
             <li>
@@ -37,7 +37,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div id="footer-section">
+        <div className="footer-section">
           <h1>Pages</h1>
           <ul>
             <li>

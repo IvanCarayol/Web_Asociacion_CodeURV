@@ -9,9 +9,7 @@
 }
 
 .footer img {
-    width: 100px;
     height: auto;
-    max-width: 100%;
     position: absolute;
     left: 200px;
     bottom: 50px;
