@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(to right, #000000, #002147, #0047ab);
+    width: 100%;
+    min-height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer img {
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+}
