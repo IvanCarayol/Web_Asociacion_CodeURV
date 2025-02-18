@@ -1,6 +1,4 @@
-# Usar
+# Usar al hacer clone
 
 npm install
-
-lo pongo de emergencia
 npm install react-router-dom
