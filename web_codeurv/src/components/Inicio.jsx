@@ -2,7 +2,7 @@ import "../styles/Inicio.css";
 
 function Inicio() {
   return (
-    <div className="inicio">
+    <div id="inicio" className="inicio">
       <div className="inicio_titulo">
         <h1>CODE URV</h1>
         <div>

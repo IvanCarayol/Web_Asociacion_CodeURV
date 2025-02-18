@@ -4,13 +4,13 @@ function NavBar() {
     <nav className="navBar">
       <ul>
         <li>
-          <a href="">INICIO</a>
+          <a href="#inicio">INICIO</a>
         </li>
         <li>
           <a href="">EVENTOS</a>
         </li>
         <li>
-          <a href="">EQUIPOS</a>
+          <a href="#equipos">EQUIPOS</a>
         </li>
         <li>
           <a href="">SOCIOS</a>
