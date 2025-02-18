@@ -15,12 +15,16 @@ function Footer() {
                 Whatsapp
               </li>
               <li>
-                  <img src ="../../public/logo_insta.png" alt=""/>
-                Instagram
+                <img src ="../../public/logo_insta.png" alt=""/>
+                <a href="https://www.instagram.com/code_urv/" target="_blank" rel="noopener noreferrer">
+                    Instagram
+                </a>
               </li>
               <li>
                 <img src ="../../public/logo_linkedin.png" alt=""/>
-                LinkedIn
+                <a href="https://www.linkedin.com/company/code-urv/" target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
               </li>
             </ul>
           </div>

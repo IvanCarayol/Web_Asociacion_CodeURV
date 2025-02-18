@@ -9,10 +9,9 @@
 }
 
 .footer > div > img {
+    display: flex;
     height: auto;
-    position: absolute;
-    left: 200px;
-    bottom: 50px;
+    margin-left: 140%;
 }
 
 .footer h1  {
@@ -22,7 +21,7 @@
 .footer-sections {
     display: flex;
     width: 60%; /* Aumenta el ancho para evitar separación excesiva */
-    margin-left: auto; /* Mueve todas las secciones un poco a la derecha */
+    margin-left: 40%; /* Mueve todas las secciones un poco a la derecha */
     gap: 80px; /* Controla la separación entre secciones */
 }
 
