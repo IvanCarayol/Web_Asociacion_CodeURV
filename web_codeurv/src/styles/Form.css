@@ -116,8 +116,8 @@
 .form__input-yes, .form__input-no {
     display: flex;
     justify-content: space-evenly;
+    gap: .1em;
     align-items: center;
-    gap: .2em;
 }
 
 .form__msg-container {
@@ -126,5 +126,12 @@
     justify-content: space-evenly;
     align-items: center;
     filter: drop-shadow(0px .6px .6px black);
-    
+    textarea {
+        width: 95%;
+        border: 1px solid black;
+        outline: none;
+        border-radius: 8px 8px 8px 8px;
+        filter: drop-shadow(0px .6px .6px black);
+    }
+
 }

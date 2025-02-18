@@ -41,10 +41,10 @@ function Form() {
           </div> 
           <div class="form__msg-container">
             <p class="form__text">Mensaje:</p>
-            <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+            <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" sentences maxLength={500} rows="6"></textarea>
           </div>
         </fieldset>
-        <input id="Enviar" name="Enviar" class="enviar" type="submit" value="Enviar" ></input>
+        <input id="Enviar" name="Enviar" class="enviar" type="submit" value="Enviar"></input>
       </form>
     </section>
     
