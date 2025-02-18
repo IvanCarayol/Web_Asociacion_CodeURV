@@ -5,12 +5,13 @@ import Footer from "./components/Footer";
 import Equipos from "./components/Equipos";
 import SobreNosotros from "./components/SobreNosotros";
 import Form from "./components/Form";
-import Socios from "./components/socios";
+import Socios from "./components/Socios";
+import Proyectos from "./components/Proyectos";
 
 function App() {
   return (
     <>
-      <NavBar /> <Inicio /> <Equipos /> <SobreNosotros /> <Form /> <Socios /> <Footer />
+      <NavBar /> <Inicio /> <Equipos /> <SobreNosotros /> <Form /> <Socios /> <Proyectos />  <Footer />
     </>
   );
 }

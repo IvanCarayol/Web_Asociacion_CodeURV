@@ -1,21 +1,38 @@
 .navBar {
-  background: linear-gradient(to right, #0349b3, #01338c);
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 0px;
+  height: 40px;
+  background: linear-gradient(to right, #0349b3, #01338c);
+  padding: 10px 0;
+  transition: transform 0.3s ease-in-out; /* Animación suave */
+  z-index: 1000; /* Asegurar que esté sobre otros elementos */
 }
+
+/* Clases dinámicas para mostrar/ocultar el navbar */
+.navBar.hidden {
+  transform: translateY(-100%);
+}
+
+.navBar.visible {
+  transform: translateY(0);
+}
+
 .navBar ul {
   list-style: none;
   display: flex;
-  gap: 20px; /* Espacio entre elementos */
-  justify-content: flex-end; /* Centrar horizontalmente */
-  align-items: center; /* Alinear verticalmente */
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding-right: 2%;
+  margin-bottom: 50%;
 }
 
 .navBar li {
   list-style: none;
-  margin-right: 2%;
+  margin-left: 30px;
 }
 
 .navBar a {
@@ -23,8 +40,10 @@
   color: white;
   font-weight: bold;
   font-size: 30px;
+  transition: color 0.2s ease;
+  gap: 200px;
 }
 
 .navBar a:hover {
-  color: black;
+  color: grey;
 }

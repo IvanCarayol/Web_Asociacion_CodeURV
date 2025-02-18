@@ -60,4 +60,9 @@
 .footer a {
     color: white;
     text-decoration: none;
+    transition: color 0.2s ease-in-out; /* Efecto suave */
 }
+
+.footer a:hover {
+    color: grey; /* Cambia a rojo al pasar el mouse */
+  }

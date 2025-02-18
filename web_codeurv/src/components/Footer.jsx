@@ -8,7 +8,7 @@ function Footer() {
         </div>
         <div className="footer-sections">
           <div className="footer-section">
-            <h1>Community</h1>
+            <h1>Comunidad</h1>
             <ul>
               <li>
                 <img src ="../../public/logo_wass.png" alt=""/>
@@ -30,7 +30,7 @@ function Footer() {
           </div>
 
           <div className="footer-section">
-            <h1>Projects</h1>
+            <h1>Proyectos</h1>
             <ul>
               <li>
                 Catle
@@ -45,16 +45,16 @@ function Footer() {
           </div>
 
           <div className="footer-section">
-            <h1>Pages</h1>
+            <h1>Páginas</h1>
             <ul>
-              <li>
-                Inicio
+              <li>  
+                <a href="#inicio" rel="noopener noreferrer">Inicio</a>
               </li>
               <li>
                 Eventos
               </li>
               <li>
-                Equipos
+                <a href="#equipos" rel="noopener noreferrer">Equipos</a>
               </li>
               <li>
                 Socios
