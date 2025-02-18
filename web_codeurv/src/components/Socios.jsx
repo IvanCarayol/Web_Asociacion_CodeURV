@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Socios.css";
 
 function Socios() {
@@ -63,9 +64,7 @@ function Socios() {
 
         {/* Botón de llamada a la acción */}
         <div className="cta-container">
-          <a href="/formulario-inscripcion" className="cta-button">
-            ¡Apúntate!
-          </a>
+          <Link to="/contacto">¡Apúntate!</Link>
         </div>
       </div>
     </section>

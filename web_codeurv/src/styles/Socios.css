@@ -1,89 +1,91 @@
 .socios {
-    background: linear-gradient(to right, #000000, #002147, #01338c);
-    width: 100%;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
-    padding: 40px 20px;
-    box-sizing: border-box;
-  }
-  
-  .socios-content.alt-layout {
-    max-width: 1000px;
-    width: 100%;
-    color: #ffffff;
-  }
-  
-  .socios-content.alt-layout h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2rem;
-  }
-  
-  /* Filas que agrupan imagen + texto */
+  background: linear-gradient(to right, #000000, #002147, #01338c);
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.socios-content.alt-layout {
+  max-width: 1000px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.socios-content.alt-layout h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Filas que agrupan imagen + texto */
+.advantage-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Cuadro blanco simulando la imagen */
+.advantage-row .image-placeholder {
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  margin-right: 20px; /* separa imagen del texto */
+  border-radius: 6px;
+}
+
+/* Contenedor de texto */
+.advantage-row .info h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
+}
+
+.advantage-row .info p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Ajuste responsivo: para pantallas pequeñas, la imagen pasa arriba y el texto abajo */
+@media (max-width: 600px) {
   .advantage-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 8px;
-    padding: 15px;
-  }
-  
-  /* Cuadro blanco simulando la imagen */
-  .advantage-row .image-placeholder {
-    width: 120px;
-    height: 120px;
-    background-color: #ffffff;
-    margin-right: 20px; /* separa imagen del texto */
-    border-radius: 6px;
-  }
-  
-  /* Contenedor de texto */
-  .advantage-row .info h2 {
-    margin: 0 0 10px 0;
-    font-size: 1.3rem;
-  }
-  
-  .advantage-row .info p {
-    margin: 0;
-    line-height: 1.4;
-  }
-  
-  /* Ajuste responsivo: para pantallas pequeñas, la imagen pasa arriba y el texto abajo */
-  @media (max-width: 600px) {
-    .advantage-row {
       flex-direction: column;
       text-align: center;
-    }
-    .advantage-row .image-placeholder {
+  }
+  .advantage-row .image-placeholder {
       margin-right: 0;
       margin-bottom: 15px;
-    }
   }
-  
-  /* Contenedor para el botón */
-  .cta-container {
-    text-align: center;
-  }
-  
-  /* Botón de llamada a la acción */
-  .cta-button {
-    display: inline-block;
-    background-color: #fff;
-    color: #01338c;
-    padding: 12px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  /* Efecto hover para el botón */
-  .cta-button:hover {
-    background-color: #01338c;
-    color: #fff;
-  }
-  
+}
+
+/* Contenedor para el botón */
+.cta-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Botón de llamada a la acción */
+.cta-container a {
+  display: inline-block;
+  background-color: #fff;
+  color: #01338c;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 2px solid #01338c;
+}
+
+/* Efecto hover para el botón */
+.cta-container a:hover {
+  background-color: #01338c;
+  color: #fff;
+}

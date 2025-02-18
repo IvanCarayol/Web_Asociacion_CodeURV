@@ -25,7 +25,7 @@ function Home() {
 
   return (
     <>
-      <NavBar /> <Inicio /> <Equipos /> <SobreNosotros /> <Form /> <Socios />{" "}
+      <NavBar /> <Inicio /> <Equipos /> <SobreNosotros /> <Socios />{" "}
       <Proyectos /> <Footer />
     </>
   );

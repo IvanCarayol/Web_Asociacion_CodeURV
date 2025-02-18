@@ -1,8 +1,9 @@
 .form__section {
-    background-color:  #01338c;
+    background: linear-gradient(to right, #000000, #002147, #01338c);
     margin: 1em 0;
     filter: drop-shadow(0px 2px 2px black);
     font-family: sans-serif;
+    margin-bottom: 0;
 }
 
 .contacto {

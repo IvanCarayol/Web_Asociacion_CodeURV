@@ -32,7 +32,7 @@ function NavBar() {
     <nav className={`navBar ${showNav ? "visible" : "hidden"}`}>
       <ul>
         <li>
-          <Link to="/#inicio">Inicio</Link>
+          <Link to="/#inicio">INICIO</Link>
         </li>
         <li>
           <Link to="/#eventos">EVENTOS</Link>
@@ -44,7 +44,7 @@ function NavBar() {
           <Link to="/#proyectos">PROYECTOS</Link>
         </li>
         <li>
-          <Link to="/contacto">Contacto</Link>
+          <Link to="/contacto">CONTACTO</Link>
         </li>
         <li>
           <Link to="/#socios">SOCIOS</Link>

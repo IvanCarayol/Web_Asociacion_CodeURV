@@ -9,19 +9,19 @@ function Form() {
             <legend>Información general</legend>
               <div class="form__input-label__container name">
                 <input id="Name" name="Name" class="form__input" type="text" placeholder="Juan" request></input>
-                <label for="Name">Tu nombre:</label>
+                <label for="Name">Nombre:</label>
               </div>
               <div class="form__input-label__container surname">
                 <input id="Surname" name="Surname" class="form__input" type="text" placeholder="Pablo"></input>
-                <label for="Surname">Tus Apellidos:</label>
+                <label for="Surname">Apellidos:</label>
               </div>
               <div class="form__input-label__container email">
                 <input id="Email" name="Email" class="form__input" type="email" placeholder="ejemplo@correo.com" request></input>
-                <label for="Email">Tu correo:</label>
+                <label for="Email">Correo:</label>
               </div>
               <div class="form__input-label__container tel">
                 <input id="Tel" name="Tel" class="form__input" type="tel" placeholder="1111111111"></input>
-                <label for="Tel">Tu teléfono:</label>
+                <label for="Tel">Teléfono:</label>
               </div>
         </fieldset>
         <fieldset class="contacto__info-msg"> 
