@@ -1,0 +1,27 @@
+.form__section {
+    background-color:  #01338c;
+    margin: 1em 0;
+    filter: drop-shadow(0px 2px 2px black);
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4px;
+    border: 1px solid black;
+    color: white;
+
+}
+
+.form__title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.contacto__info-general {
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.5em;
+}
