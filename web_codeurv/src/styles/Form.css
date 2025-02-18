@@ -2,15 +2,21 @@
     background-color:  #01338c;
     margin: 1em 0;
     filter: drop-shadow(0px 2px 2px black);
+    font-family: sans-serif;
 }
 
 .contacto {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 4px;
+    padding: 1.25em;
     border: 1px solid black;
-    color: white;
+    color: #f0f0f0;
+    gap: 1em;
+    align-items: center;
+    h2 {
+        margin-bottom: 0;
+    }
 
 }
 
@@ -20,8 +26,105 @@
     font-size: 2em;
 }
 
+.contacto__info-general, .contacto__info-msg {
+    padding: 4px;
+     padding: 1em;
+    text-align: center;
+    legend {
+        font-size: 1.7em;
+        font-weight: 900;
+        text-shadow: 0px .6px .6px black;
+    }
+    width: 90%;
+}
+
 .contacto__info-general {
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8em;
+}
+
+.form__input-label__container {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: .4em;
+    color: #f0f0f0;
+    input {
+        flex-grow: 1;
+        font-size: 1em;
+        border: 1px solid black;
+        filter: drop-shadow(0px 1px 1px black);
+        outline: none;
+        border-radius: 8px 8px 8px 8px;
+
+    }
+
+    label {
+        font-size: 1.2em;
+        filter: drop-shadow(0px .4px .4px black);
+        font-weight: 600;
+    }
+    
+}
+
+.email, .tel {
+    grid-column: span 2;
+}
+
+.enviar {
+    margin-top: .4em;
+    background-color: black;
+    color: white;
+    font-size: 1.25em;
+    border: 1px solid white;
+    width: 91%;
+    filter: drop-shadow(0px .3px .3px white);
+}
+
+.contacto__info-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .3em;
+}
+
+.form__text {
+    font-size: 1.25em;
     font-weight: 700;
-    font-size: 1.5em;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    filter: drop-shadow(0px .6px .6px black);
+}
+
+.question__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45%;
+    gap: 4px;
+}
+
+.form__input-yes, .form__input-no {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: .2em;
+}
+
+.form__msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    filter: drop-shadow(0px .6px .6px black);
+    
 }
