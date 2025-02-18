@@ -3,11 +3,12 @@ import "./App.css";
 import Inicio from "./components/Inicio";
 import Footer from "./components/Footer";
 import Equipos from "./components/Equipos";
+import SobreNosotros from "./components/SobreNosotros";
 
 function App() {
   return (
     <>
-      <NavBar /> <Inicio /> <Equipos /> <Footer />
+      <NavBar /> <Inicio /> <Equipos /> <SobreNosotros /> <Footer />
     </>
   );
 }

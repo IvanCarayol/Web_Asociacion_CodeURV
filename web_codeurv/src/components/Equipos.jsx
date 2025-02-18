@@ -2,8 +2,8 @@ import "../styles/Equipos.css";
 
 function Equipos() {
   return (
-    <div>
-      <p>hola</p>
+    <div className="equipo">
+      <p>Equipos</p>
     </div>
   );
 }
