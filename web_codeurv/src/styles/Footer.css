@@ -56,3 +56,8 @@
     height: 30px;
     margin-right: 8px;
 }
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

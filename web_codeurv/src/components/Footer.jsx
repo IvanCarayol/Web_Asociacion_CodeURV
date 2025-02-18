@@ -15,7 +15,7 @@ function Footer() {
                 Whatsapp
               </li>
               <li>
-                <img src ="../../public/logo_insta.png" alt=""/>
+                <img src ="./logo_insta.png" alt=""/>
                 <a href="https://www.instagram.com/code_urv/" target="_blank" rel="noopener noreferrer">
                     Instagram
                 </a>

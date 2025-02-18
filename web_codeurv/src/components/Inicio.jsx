@@ -12,7 +12,7 @@ function Inicio() {
       </div>
 
       <div className="inicio_divimg">
-        <img src="../../public/logo_original.png" alt="" />
+        <img src="logo_original.png" alt="" />
       </div>
     </div>
   );
