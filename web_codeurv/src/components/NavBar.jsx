@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
 
 function NavBar() {
@@ -21,7 +22,7 @@ function NavBar() {
     };
 
     window.addEventListener("scroll", handleScroll);
-    
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -31,19 +32,22 @@ function NavBar() {
     <nav className={`navBar ${showNav ? "visible" : "hidden"}`}>
       <ul>
         <li>
-          <a href="#inicio">INICIO</a>
+          <Link to="/#inicio">Inicio</Link>
         </li>
         <li>
-          <a href="#eventos">EVENTOS</a>
+          <Link to="/#eventos">EVENTOS</Link>
         </li>
         <li>
-          <a href="#equipos">EQUIPOS</a>
+          <Link to="/#equipos">EQUIPOS</Link>
         </li>
         <li>
-          <a href="#proyectos">PROYECTOS</a>
+          <Link to="/#proyectos">PROYECTOS</Link>
         </li>
         <li>
-          <a href="#socios">SOCIOS</a>
+          <Link to="/contacto">Contacto</Link>
+        </li>
+        <li>
+          <Link to="/#socios">SOCIOS</Link>
         </li>
       </ul>
     </nav>

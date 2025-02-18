@@ -2,7 +2,7 @@ import "../styles/Socios.css";
 
 function Socios() {
   return (
-    <section className="socios">
+    <section id="socios" className="socios">
       <div className="socios-content alt-layout">
         <h1>Ventajas de ser socio de CodeURV</h1>
 
@@ -11,8 +11,8 @@ function Socios() {
           <div className="info">
             <h2>Camiseta exclusiva</h2>
             <p>
-              Podrás recibir una camiseta con el logo de CodeURV para lucir
-              en todas nuestras actividades.
+              Podrás recibir una camiseta con el logo de CodeURV para lucir en
+              todas nuestras actividades.
             </p>
           </div>
         </div>
@@ -22,8 +22,8 @@ function Socios() {
           <div className="info">
             <h2>Certificado de asistencia a charlas</h2>
             <p>
-              Obtén una constancia oficial de las charlas y talleres a los que asistas. 
-              Perfecto para destacar en tu currículum.
+              Obtén una constancia oficial de las charlas y talleres a los que
+              asistas. Perfecto para destacar en tu currículum.
             </p>
           </div>
         </div>
@@ -33,8 +33,8 @@ function Socios() {
           <div className="info">
             <h2>Descuentos con la Fundación URV</h2>
             <p>
-              Próximamente podrás beneficiarte de interesantes descuentos
-              en formación y eventos de la Fundación URV.
+              Próximamente podrás beneficiarte de interesantes descuentos en
+              formación y eventos de la Fundación URV.
             </p>
           </div>
         </div>
