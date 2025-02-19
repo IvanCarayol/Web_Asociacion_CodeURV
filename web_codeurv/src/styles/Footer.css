@@ -1,41 +1,41 @@
 .footer {
     background: linear-gradient(to right, #000000, #002147, #01338c);
     width: 100%;
-    height: 350px; 
-    display: flex;
-    justify-content: space-evenly; /* Distribuye uniformemente las secciones */
-    align-items: center;
-    position: relative;
-    margin-top: 0;
-}
-
-.footer > div > img {
-    display: flex;
     height: auto;
-    margin-left: 140%;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Dos columnas: imagen y textos */
+    align-items: center;
+    padding: 30px 5%;
+    gap: 30px; /* Espacio entre la imagen y los textos */
 }
 
-.footer h1  {
-    color: white;
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 150px;
 }
 
 .footer-sections {
     display: flex;
-    width: 60%; /* Aumenta el ancho para evitar separación excesiva */
-    margin-left: 40%; /* Mueve todas las secciones un poco a la derecha */
-    gap: 80px; /* Controla la separación entre secciones */
+    justify-content: flex-start; /* Alinea los textos más juntos */
+    gap: 5px; /* Reduce la separación entre las secciones */
+    padding-left: 10px; /* Opcional, para acercarlas más a la imagen */
+    margin-left: 140px; /* 🔹 Aumentado para alejarlo más de la imagen */
 }
 
 .footer-section {
-    display: flex;
-    flex-direction: column;
+    flex: 0.25; /* Reduce el tamaño de cada sección */
     text-align: left;
-    min-width: 150px; /* Limita el ancho mínimo para evitar demasiada separación */
 }
 
-/* Mueve "Community" un poco más a la derecha */
-.footer-section:first-child {
-    margin-left: 80px;
+.footer h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .footer ul {
@@ -46,27 +46,33 @@
 }
 
 .footer-section ul li {
-    font-size: 18px; /* Aumenta el tamaño del texto */
-    margin: 8px 0;
+    font-size: 18px;
+    margin: 5px 0;
     display: flex;
     align-items: center;
 }
 
 .footer-section ul li img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     margin-right: 8px;
 }
 
 .footer a {
     color: white;
     text-decoration: none;
-    transition: color 0.2s ease-in-out; /* Efecto suave */
+    transition: color 0.2s ease-in-out;
 }
 
 .footer a:hover {
-    color: grey; /* Cambia a rojo al pasar el mouse */
-  }
+    color: grey;
+}
+
+.footer-section:nth-child(2) {
+    flex: 0.2; /* Reduce su tamaño un poco */
+    margin-right: 20px; /* Opcional: ajusta según lo necesites */
+}
+
 
 html {
     scroll-behavior: smooth;

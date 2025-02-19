@@ -12,14 +12,14 @@ function Proyectos() {
                         <div className="info-grid">
                             <p><strong>Nombre:</strong> Catle</p>
                             <p><strong>Estado:</strong> Finalizado</p>
-                            <p><strong>Responsables:</strong> El Gato Con Botas y shrek</p>
+                            <p><strong>Responsables:</strong> Oriol Algar Vilà y Eric Riveiro Illescas</p>
                             <p className="descripcion"><strong>Descripcion</strong></p>
                         </div>
                         <div className="catledesc">
-                            <p>Catle es una adaptación del famoso juego <strong>Wordle</strong>, pero con una temática única: ¡<strong>los gatos</strong>! 😺</p>
-                            <p>Los jugadores deben adivinar palabras relacionadas con el mundo felino, poniendo a prueba su conocimiento gatuno.</p>
-                            <p>Este proyecto ha sido desarrollado en <strong>lenguaje C</strong> y adaptado para ser <strong>emulado en la Nintendo DS</strong> 🕹️, gracias al uso de la biblioteca <strong>libnds</strong>.</p>
-                            <p>¡Descubre cuántas palabras felinas puedes adivinar y disfruta de <strong>Catle</strong> en tu Nintendo DS! 🧩🐾</p>
+                            <p>🐱 <strong>Catle</strong> es una versión temática del popular juego <strong>Wordle</strong>, pero con un giro felino. En este desafío, los jugadores deben adivinar palabras relacionadas con el mundo de los gatos, poniendo a prueba su conocimiento y amor por estos adorables compañeros.</p>
+                            <p>💻 Desarrollado en <strong>lenguaje C</strong> y optimizado para ser <strong>emulado en la Nintendo DS</strong>, <strong>Catle</strong> utiliza la biblioteca <strong>libnds</strong> para ofrecer una experiencia fluida y divertida en la icónica consola portátil.</p>
+                            <p>🎮 Más que un simple juego, <strong>Catle</strong> es un proyecto que combina la lógica de los juegos de palabras con la programación para consolas retro, permitiendo a los desarrolladores y jugadores explorar nuevas posibilidades en el desarrollo para la Nintendo DS.</p>
+                            <p>🐾 ¿Cuántas palabras gatunas puedes descubrir? Ponte a prueba y disfruta de <strong>Catle</strong> en tu Nintendo DS. 🍀🎮</p>
                         </div>
                     </div>
                         
@@ -38,15 +38,14 @@ function Proyectos() {
                         <div className="info-grid">
                             <p><strong>Nombre:</strong> SnakeIA</p>
                             <p><strong>Estado:</strong> En progreso</p>
-                            <p><strong>Responsables:</strong> Guillermo (algo) Arnau Fàbregas Figueras</p>
+                            <p><strong>Responsables:</strong> Guillermo (Apellido1) (Apellido2) y Arnau Fàbregas Figueras</p>
                             <p className="descripcion"><strong>Descripcion</strong></p>
                         </div>
                         <div className="Snakedesc">
-                            <p><strong>SnakeIA</strong> es una evolución del clásico <strong>Snake</strong>, diseñado para desafiar tus reflejos y estrategia en un duelo contra una inteligencia artificial. 🐍🤖</p>
-                            <p>El objetivo es simple: <strong>haz crecer tu serpiente</strong> comiendo manzanas mientras intentas acorralar y vencer a tu rival.</p>
-                            <p>Pero hay un giro: <strong>la máquina aprende</strong>. 🧠✨ Gracias a un modelo de <strong>Machine Learning en Python</strong>, la IA mejorará con el tiempo, adaptándose a tu estilo de juego.</p>
-                            <p>¿Tienes lo necesario para vencer a una IA en su propio juego? ¡Ponte a prueba en <strong>SnakeIA</strong> y demuestra quién es el verdadero depredador del tablero! 🍏⚡</p>
-
+                            <p>🎮 <strong>SnakeIA</strong> es un proyecto innovador que combina desarrollo de videojuegos y <strong>inteligencia artificial</strong> para ofrecer una experiencia desafiante y única.</p>
+                            <p>🖥️ Desarrollado con <strong>Python</strong> y <strong>Machine Learning</strong>, este sistema no solo juega, sino que <strong>aprende</strong>. A través de modelos de IA, analiza cada partida y <strong>mejora su toma de decisiones</strong>, optimizando sus movimientos para realizar la mejor jugada posible en cada momento.</p>
+                            <p>🚀 Más que un simple juego, <strong>SnakeIA</strong> es una plataforma de prueba y experimentación en la que se exploran conceptos clave de <strong>algoritmos de aprendizaje automático</strong> y <strong>desarrollo de juegos interactivos</strong>.</p>
+                            <p>📌 Su diseño intuitivo y su enfoque educativo lo convierten en un recurso valioso para aquellos interesados en la <strong>programación de IA</strong>, el <strong>desarrollo de software</strong> y la <strong>optimización de estrategias</strong>.</p>
                         </div>
                     </div>
                         
@@ -63,17 +62,16 @@ function Proyectos() {
                     {/* Texto a la izquierda */}
                     <div className="text-section">
                         <div className="info-grid">
-                            <p><strong>Nombre:</strong> Web Associacion</p>
+                            <p><strong>Nombre:</strong> Web Asociación</p>
                             <p><strong>Estado:</strong> En progreso</p>
                             <p><strong>Responsables:</strong> Arnau Fàbregas Figueras, Ivan Carayol Rodríguez y Gaizka Alonso Martínez</p>
                             <p className="descripcion"><strong>Descripcion</strong></p>
                         </div>
-                        <div className="Snakedesc">
-                            <p>Bienvenido a <strong>CODE URV</strong>, la comunidad de apasionados por la tecnología y la programación en la <strong>Universitat Rovira i Virgili</strong>. 🚀💻</p>
-                            <p>Nuestra misión es conectar a estudiantes y entusiastas de la informática a través de <strong>proyectos, eventos y aprendizaje colaborativo</strong>.</p>
-                            <p>Esta web, desarrollada con <strong>React</strong>, combina <strong>HTML, CSS y JavaScript</strong> para ofrecerte una experiencia interactiva y dinámica.</p>
-
-
+                        <div className="Webdesc">
+                            <p>💻 Nuestra página web es el corazón digital de nuestra asociación, desarrollada con <strong>React</strong> e impulsada por <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong> para garantizar una experiencia moderna y eficiente.</p>
+                            <p>🌐 Cada sección ha sido cuidadosamente diseñada para <strong>informar</strong>, <strong>conectar</strong> y <strong>potenciar</strong> a nuestra comunidad, facilitando el acceso a eventos, proyectos y oportunidades de colaboración.</p>
+                            <p>📌 Con un diseño intuitivo y adaptable, nuestra web permite que cualquier usuario pueda navegar de forma rápida y sencilla, fortaleciendo nuestra misión de <strong>crecimiento</strong> y <strong>aprendizaje colectivo</strong>.</p>
+                            <p>🚀 Más que un sitio, es un punto de encuentro para la <strong>innovación</strong>, la <strong>tecnología</strong> y el <strong>desarrollo</strong>, un espacio donde las ideas cobran vida y la comunidad crece unida.</p>
                         </div>
                     </div>
                         
