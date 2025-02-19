@@ -84,3 +84,9 @@
     width: auto;
 }
 
+#snakefoto {
+    display: flex;
+    height: 300px;
+    width: auto;
+}
+

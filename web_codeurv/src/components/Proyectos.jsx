@@ -38,7 +38,7 @@ function Proyectos() {
                         <div className="info-grid">
                             <p><strong>Nombre:</strong> SnakeIA</p>
                             <p><strong>Estado:</strong> En progreso</p>
-                            <p><strong>Responsables:</strong> Guillermo (Apellido1) (Apellido2) y Arnau Fàbregas Figueras</p>
+                            <p><strong>Responsables:</strong> Guillermo Pinteño Cabello y Arnau Fàbregas Figueras</p>
                             <p className="descripcion"><strong>Descripcion</strong></p>
                         </div>
                         <div className="Snakedesc">
@@ -52,7 +52,7 @@ function Proyectos() {
 
                     {/* Imagen a la derecha */}
                     <div className="image-section">
-                        <img src="/Gato.png" alt="SnakeIa" />
+                        <img id="snakefoto" src="/SnakeIa.png" alt="SnakeIa" />
                     </div>
                 </div>
             </div>
