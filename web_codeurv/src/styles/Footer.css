@@ -5,8 +5,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr; /* Dos columnas: imagen y textos */
     align-items: center;
-    padding: 30px 5%;
     gap: 30px; /* Espacio entre la imagen y los textos */
+    padding-bottom: 40px;
 }
 
 .footer-logo {
