@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 100px
 }
 
 .footer-logo img {
@@ -24,7 +25,7 @@
     justify-content: flex-start; /* Alinea los textos más juntos */
     gap: 5px; /* Reduce la separación entre las secciones */
     padding-left: 10px; /* Opcional, para acercarlas más a la imagen */
-    margin-left: 140px; /* 🔹 Aumentado para alejarlo más de la imagen */
+    margin-left: 380px; /* 🔹 Aumentado para alejarlo más de la imagen */
 }
 
 .footer-section {

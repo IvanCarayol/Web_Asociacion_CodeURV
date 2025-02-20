@@ -62,13 +62,13 @@ function Proyectos() {
                     {/* Texto a la izquierda */}
                     <div className="text-section">
                         <div className="info-grid">
-                            <p><strong>Nombre:</strong> Web Asociación</p>
+                            <p><strong>Nombre:</strong> Web CodeURV</p>
                             <p><strong>Estado:</strong> En progreso</p>
                             <p><strong>Responsables:</strong> Arnau Fàbregas Figueras, Ivan Carayol Rodríguez y Gaizka Alonso Martínez</p>
                             <p className="descripcion"><strong>Descripcion</strong></p>
                         </div>
                         <div className="Webdesc">
-                            <p>💻 Nuestra página web es el corazón digital de nuestra asociación, desarrollada con <strong>React</strong> e impulsada por <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong> para garantizar una experiencia moderna y eficiente.</p>
+                            <p>💻 Nuestra página web es el corazón digital de nuestra asociación, desarrollada con <strong>React</strong> e impulsada por <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>.</p>
                             <p>🌐 Cada sección ha sido cuidadosamente diseñada para <strong>informar</strong>, <strong>conectar</strong> y <strong>potenciar</strong> a nuestra comunidad, facilitando el acceso a eventos, proyectos y oportunidades de colaboración.</p>
                             <p>📌 Con un diseño intuitivo y adaptable, nuestra web permite que cualquier usuario pueda navegar de forma rápida y sencilla, fortaleciendo nuestra misión de <strong>crecimiento</strong> y <strong>aprendizaje colectivo</strong>.</p>
                             <p>🚀 Más que un sitio, es un punto de encuentro para la <strong>innovación</strong>, la <strong>tecnología</strong> y el <strong>desarrollo</strong>, un espacio donde las ideas cobran vida y la comunidad crece unida.</p>
