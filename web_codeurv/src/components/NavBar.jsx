@@ -35,6 +35,9 @@ function NavBar() {
           <Link to="/#inicio">INICIO</Link>
         </li>
         <li>
+          <Link to="/#sobrenosotros">SOBRE NOSOTROS</Link>
+        </li>
+        <li>
           <Link to="/#eventos">EVENTOS</Link>
         </li>
         <li>
@@ -42,9 +45,6 @@ function NavBar() {
         </li>
         <li>
           <Link to="/#proyectos">PROYECTOS</Link>
-        </li>
-        <li>
-          <Link to="/contacto">CONTACTO</Link>
         </li>
         <li>
           <Link to="/#socios">SOCIOS</Link>

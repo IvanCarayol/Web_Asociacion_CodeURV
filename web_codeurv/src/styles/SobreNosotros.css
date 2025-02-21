@@ -1,9 +1,61 @@
 .SobreNosotros {
-    text-align: center;
     background: linear-gradient(to right, #000000, #002147, #01338c);
-    padding:0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
- .SobreNosotros h1 {
+
+.SobreNosotros h1 {
     color: white;
-    margin: 0;
- }
+}
+
+.Contenido {
+    display: flex;
+    justify-content: space-between; /* Mantiene la separación */
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.Texto {
+    color: white;
+    text-align: left;
+    width: 60%;
+}
+
+.Texto h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Texto p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+.Texto hr {
+    width: 100%;
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid white;
+}
+
+.Imagenes {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end; /* Mueve las imágenes a la derecha */
+    margin-left: auto; /* Empuja las imágenes al extremo derecho */
+}
+
+#Robots {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+

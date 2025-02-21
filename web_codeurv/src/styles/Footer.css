@@ -1,35 +1,36 @@
 .footer {
     background: linear-gradient(to right, #000000, #002147, #01338c);
     width: 100%;
-    height: auto;
+    height: 400%;
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Dos columnas: imagen y textos */
+    grid-template-columns: 1fr 2fr;
     align-items: center;
-    gap: 30px; /* Espacio entre la imagen y los textos */
+    gap: 30px;
     padding-bottom: 40px;
+    border-top: 1px solid black; /* 🔹 Línea negra de 3px */
 }
 
 .footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px
+    margin-left: 100px;
 }
 
 .footer-logo img {
-    width: 150px;
+    width: 180px;
 }
 
 .footer-sections {
     display: flex;
-    justify-content: flex-start; /* Alinea los textos más juntos */
-    gap: 5px; /* Reduce la separación entre las secciones */
-    padding-left: 10px; /* Opcional, para acercarlas más a la imagen */
-    margin-left: 380px; /* 🔹 Aumentado para alejarlo más de la imagen */
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 10px;
+    margin-left: 380px;
 }
 
 .footer-section {
-    flex: 0.25; /* Reduce el tamaño de cada sección */
+    flex: 0.25;
     text-align: left;
 }
 
@@ -51,6 +52,8 @@
     margin: 5px 0;
     display: flex;
     align-items: center;
+    line-height: 1.4; /* 🔹 Aumenta el interlineado */
+    padding: 3px 0;  /* 🔹 Espacio adicional entre elementos */
 }
 
 .footer-section ul li img {
@@ -70,10 +73,9 @@
 }
 
 .footer-section:nth-child(2) {
-    flex: 0.2; /* Reduce su tamaño un poco */
-    margin-right: 20px; /* Opcional: ajusta según lo necesites */
+    flex: 0.2;
+    margin-right: 20px;
 }
-
 
 html {
     scroll-behavior: smooth;
