@@ -1,81 +1,94 @@
+/* Fondo general con degradado azul */
 .carrusel-container {
   text-align: center;
-  padding: 40px 20px;
-  background-color: #111;
+  padding: 50px 20px;
   color: white;
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(to right, #000000, #002147, #01338c);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
+/* Carrusel centrado */
 .carrusel {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  max-width: 80%;
-  margin: 0 auto;
 }
 
-.btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.2);
-  border: none;
-  color: white;
-  font-size: 2rem;
-  cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 50%;
-  transition: background 0.3s;
-  z-index: 10;
-}
-
-.btn:hover {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.btn:first-of-type {
-  left: 5%;
-}
-
-.btn:last-of-type {
-  right: 5%;
-}
-
+/* Tamaño más grande de la tarjeta */
 .tarjeta-container {
+  width: 500px; /* Aumentamos el tamaño */
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 250px;
-  position: relative;
-  overflow: hidden; /* Oculta las tarjetas fuera del contenedor */
+  overflow: hidden;
 }
 
+/* Diseño mejorado de la tarjeta */
 .tarjeta {
   width: 100%;
   height: 100%;
-  background: white;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  display: none; /* Oculta las tarjetas por defecto */
-}
-
-.tarjeta img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro más sólido */
+  padding: 25px;
+  border-radius: 20px; /* Bordes más redondeados */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8); /* Sombra más fuerte */
+  transition: transform 0.5s ease-in-out;
 }
 
 .tarjeta.activa {
-  transform: scale(1.1);
-  opacity: 1;
-  display: block; /* Muestra solo la tarjeta activa */
-  z-index: 2;
+  display: flex;
+}
+
+/* Imagen más grande con borde */
+.tarjeta img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+  border: 4px solid white;
+}
+
+/* Texto mejorado */
+.contenido {
+  text-align: left;
+  color: white;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 8px;
+  color: #f1c40f; /* Amarillo dorado para resaltar */
+}
+
+p {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+/* Estilo mejorado de los botones */
+.btn {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 215, 0, 0.7); /* Color dorado al pasar el ratón */
+  transform: scale(1.2);
 }

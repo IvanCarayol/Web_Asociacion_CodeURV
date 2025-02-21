@@ -1,22 +1,21 @@
 import { useState } from "react";
 import "../styles/Equipos.css";
 
-// Datos de prueba para los equipos
 const equipos = [
+  {
+    nombre: "EQUIPO WEB",
+    descripcion: "Somos muy guapos",
+    imagen: "../../public/presentacionWeb.jpg",
+  },
+  {
+    nombre: "HACKATONES",
+    descripcion: "Amantes del hardware",
+    imagen: "../../public/hackatonLleida.png",
+  },
   {
     nombre: "HACKERS",
     descripcion: "Somos hackers del futuro",
     imagen: "https://example.com/hackers.jpg",
-  },
-  {
-    nombre: "EQUIPO WEB",
-    descripcion: "Somos muy guapos",
-    imagen: "https://example.com/equipo-web.jpg",
-  },
-  {
-    nombre: "HARDWARE",
-    descripcion: "Amantes del hardware",
-    imagen: "https://example.com/hardware.jpg",
   },
 ];
 
@@ -46,9 +45,11 @@ function Equipos() {
               key={index}
               className={`tarjeta ${index === indexActual ? "activa" : ""}`}
             >
-              <h2>{equipo.nombre}</h2>
-              <p>{equipo.descripcion}</p>
               <img src={equipo.imagen} alt={equipo.nombre} />
+              <div className="contenido">
+                <h2>{equipo.nombre}</h2>
+                <p>{equipo.descripcion}</p>
+              </div>
             </div>
           ))}
         </div>
