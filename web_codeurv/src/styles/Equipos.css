@@ -1,15 +1,22 @@
 /* Fondo general con degradado azul */
+#equipos {
+  margin-top: -5px; /* Reduce el espacio entre eventos y equipos */
+  padding-top: 0;
+}
+
+
 .carrusel-container {
   text-align: center;
-  padding: 50px 20px;
+  padding: 0;
   color: white;
   background: linear-gradient(to right, #000000, #002147, #01338c);
-  min-height: 60vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin:0;
 }
 
 /* Carrusel centrado */
@@ -91,4 +98,9 @@ p {
 .btn:hover {
   background-color: rgba(255, 215, 0, 0.7); /* Color dorado al pasar el ratón */
   transform: scale(1.2);
+}
+
+.contenedor-principal {
+  margin: 0;
+  padding: 0;
 }

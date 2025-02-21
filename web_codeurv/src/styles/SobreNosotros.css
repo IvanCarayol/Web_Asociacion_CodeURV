@@ -2,6 +2,7 @@
     background: linear-gradient(to right, #000000, #002147, #01338c);
     padding: 40px 20px;
     display: flex;
+    margin-bottom:-25px ;
     flex-direction: column;
     align-items: center;
 }
@@ -34,7 +35,7 @@
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
-    line-height: 2;
+    line-height: 1.4;
 }
 
 .Texto hr {
@@ -48,13 +49,13 @@
     width: 35%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: flex-end; /* Mueve las imágenes a la derecha */
-    margin-left: auto; /* Empuja las imágenes al extremo derecho */
+    margin-left: 350px; /* Empuja las imágenes al extremo derecho */
 }
 
-#Robots {
-    width: 100%;
+
+#Foto-derecha {
+    width: 160%;
     height: auto;
     border-radius: 40px;
 }
