@@ -3,7 +3,7 @@ import "../styles/SobreNosotros.css";
 function SobreNosotros() {
   return (
     <div id="sobrenosotros" className="SobreNosotros">
-      <h1>Sobre Nosotros</h1>
+      <h1>SOBRE NOSOTROS</h1>
       <div className="Contenido">
         <div className="Texto">
           <h2>¿Quiénes somos?</h2>

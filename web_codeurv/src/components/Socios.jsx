@@ -5,7 +5,7 @@ function Socios() {
   return (
     <section id="socios" className="socios">
       <div className="socios-content alt-layout">
-        <h1>Ventajas de ser socio de CodeURV</h1>
+        <h1>VENTAJAS DE SER SOCIO DE CODEURV</h1>
 
         <div className="advantage-row">
           <div className="image-placeholder"></div>
