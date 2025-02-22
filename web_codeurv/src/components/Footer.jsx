@@ -63,7 +63,7 @@ function Footer() {
                     <ul>
                         <li><a href="#inicio" rel="noopener noreferrer">Inicio</a></li>
                         <li><a href="#sobrenosotros" rel ="noopener noreferrer">Sobre Nosotros</a></li>
-                        <li>Eventos</li>
+                        <li><a href="#eventos" rel ="noopener noreferrer">Eventos</a></li>
                         <li><a href="#equipos" rel="noopener noreferrer">Equipos</a></li>
                         <li><a href="#proyectos" rel="noopener noreferrer">Proyectos</a></li>
                         <li><a href="#socios" rel="noopener noreferrer">Socios</a></li>

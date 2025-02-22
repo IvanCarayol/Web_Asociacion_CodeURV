@@ -61,7 +61,7 @@ function EventosYEquipos() {
       </div>
 
       {/* Sección de Equipos */}
-      <div className="carrusel-container">
+      <div id="equipos" className="carrusel-container">
         <h1>EQUIPOS</h1>
         <div className="carrusel">
           <button className="btn" onClick={anterior}>
